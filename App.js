@@ -4,11 +4,14 @@ import ColorChangerApp from './ColorChangerApp';
 import CounterApp from './CounterApp';
 import MessengerApp from './MessengerApp';
 import CommentApp from './CommentApp';
+
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-       <ColorChangerApp/>
+  <ColorChangerApp/>
     <CounterApp/>
+    <MessengerApp/>
+    <CommentApp/>
     </SafeAreaView>
   );
 }
