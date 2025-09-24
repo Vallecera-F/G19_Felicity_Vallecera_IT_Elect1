@@ -1,16 +1,14 @@
-import ColorChangerApp from './ColorChangerApp';
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import CounterApp from './CounterApp';  
-import MidtermAct01 from './MidtermAct01';
-
+import ColorChangerApp from './ColorChangerApp';
+import CounterApp from './CounterApp';
+import MessengerApp from './MessengerApp';
+import CommentApp from './CommentApp';
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-     <MidtermAct01/>
-     <ColorChangerApp/>
-     <CounterApp/>
- 
+       <ColorChangerApp/>
+    <CounterApp/>
     </SafeAreaView>
   );
 }
