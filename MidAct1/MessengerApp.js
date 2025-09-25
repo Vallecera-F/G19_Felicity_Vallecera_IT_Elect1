@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { SafeAreaView, View, Text, TextInput, TouchableOpacity, FlatList } from "react-native";
 
-export default function ChatScreen() {
+export default function MessengerApp() {
   const [messages, setMessages] = useState([
     { id: "1", text: "Hello Fel! 👋", sender: "other" },
     { id: "2", text: "Hi! How are you?", sender: "me" },
